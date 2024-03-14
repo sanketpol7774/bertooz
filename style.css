@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+    background-image: url(footwere.webp);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.navBar{
+    height: 3vw;
+    width: auto;
+    /* background-color:crimson; */
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px 20px;
+
+}
+
+.logo h3{
+color: white;
+
+}
+
+.menu{
+    height: 100%;
+    width: 25%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    
+}
+
+.menu a{
+    text-decoration: none;
+    color: white;
+}
+
+.cart i{ 
+    color: white;
+}
+
+.heading{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.heading  h1{
+    font-size: 380px;
+    /* font-weight: 100; */
+    color: rgb(233, 225, 225);
+
+}
+
+.heading p{
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content: flex-start ;
+    margin-left: 100px;
+    margin-bottom: 20px;
+
+
+}
+
+.heading button{
+    width: fit-content;
+    display: flex;
+    /* width: fit-content; */
+    justify-content: flex-start ;
+    margin-right: 80%;
+    background-color: transparent;
+    padding: 10px 40px;
+    border-radius: 50px;
+    border: 1px solid white;
+    color: white;
+
+}
+
+. button{
+  
+}
